@@ -75,3 +75,34 @@ body {
     border-radius: 6px;
     font-size: 0.9rem;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .content-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 1rem;
+        padding: 1rem 0;
+    }
+    
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-grid {
+        gap: 1rem;
+        margin-top: 0.5rem;
+        padding: 0.5rem 0;
+    }
+    
+    .container {
+        padding: 0 10px;
+    }
+    
+    .btn-view-all {
+        padding: 0.875rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
