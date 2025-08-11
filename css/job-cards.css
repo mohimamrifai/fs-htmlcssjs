@@ -6,14 +6,15 @@
     margin-top: 1rem;
 }
 .job-card {
-    background: #fff;
+    background: #1f2937;
     border-radius: 1rem;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 12px rgba(0,0,0,0.3);
     padding: 1.5rem;
     margin-bottom: 0.5rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    border: 1px solid #374151;
 }
 .company-header {
     display: flex;
@@ -43,10 +44,11 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 0.25rem;
+    color: #f9fafb;
 }
 .company-description {
     font-size: 1rem;
-    color: #555;
+    color: #9ca3af;
 }
 .company-positions {
     display: flex;
@@ -66,6 +68,7 @@
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
+    color: #f3f4f6;
 }
 .job-salary {
     font-size: 1rem;
@@ -83,8 +86,8 @@
     font-weight: 500;
     margin-right: 0.5rem;
     margin-bottom: 0.25rem;
-    color: #333;
-    background-color: #f0f0f0;
+    color: #e5e7eb;
+    background-color: #374151;
 }
 .tag.blue { background-color: #1e90ff; color: #fff; }
 .tag.green { background-color: #2ed573; color: #fff; }
@@ -97,8 +100,8 @@
 }
 .skill {
     display: inline-block;
-    background: #f1f2f6;
-    color: #333;
+    background: #374151;
+    color: #e5e7eb;
     border-radius: 6px;
     padding: 0.25rem 0.75rem;
     font-size: 0.85rem;

@@ -7,19 +7,19 @@
 }
 
 .job-position:hover {
-    background-color: #f8f9fa;
+    background-color: #374151;
 }
 
 .position-title {
     font-size: 1.2rem;
     font-weight: 600;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #f9fafb;
 }
 
 .salary-range {
     font-size: 1rem;
-    color: #1976d2;
+    color: #60a5fa;
     font-weight: 500;
     margin-bottom: 0.75rem;
 }
@@ -36,8 +36,8 @@
     font-weight: 500;
     margin-right: 0.5rem;
     margin-bottom: 0.25rem;
-    color: #333;
-    background-color: #f0f0f0;
+    color: #e5e7eb;
+    background-color: #4b5563;
 }
 
 .tag.no-japanese {
@@ -72,8 +72,8 @@
 }
 
 .skill-tag {
-    background: #f1f2f6;
-    color: #333;
+    background: #4b5563;
+    color: #e5e7eb;
     border-radius: 6px;
     padding: 0.25rem 0.75rem;
     font-size: 0.8rem;

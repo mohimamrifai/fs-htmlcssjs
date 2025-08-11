@@ -26,12 +26,12 @@
 
 /* Header Styles */
 .header {
-    background: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
+    background: #1f2937;
+    border-bottom: 1px solid #374151;
     position: sticky;
     top: 0;
     z-index: 100;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .navbar {
@@ -50,7 +50,7 @@
 .nav-brand a {
     font-size: 1.8rem;
     font-weight: 800;
-    color: #333;
+    color: #f9fafb;
     text-decoration: none;
     transition: color 0.2s;
 }
@@ -68,7 +68,7 @@
 
 .nav-menu a {
     text-decoration: none;
-    color: #333;
+    color: #e5e7eb;
     font-weight: 500;
     transition: color 0.2s;
 }
@@ -99,8 +99,8 @@
 
 .btn-login {
     background: transparent;
-    color: #333;
-    border: 1px solid #e5e5e5;
+    color: #e5e7eb;
+    border: 1px solid #4b5563;
     padding: 0.5rem 1rem;
     border-radius: 6px;
     font-weight: 500;
@@ -109,9 +109,9 @@
 }
 
 .btn-login:hover {
-    background: #f8f9fa;
-    color: #2563eb;
-    border-color: #2563eb;
+    background: #374151;
+    color: #60a5fa;
+    border-color: #60a5fa;
 }
 
 /* Mobile Menu Toggle */

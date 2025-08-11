@@ -1,6 +1,6 @@
 /* Discord Section Styles */
 .discord-section {
-    background: linear-gradient(135deg, #5865f2 0%, #4752c4 50%, #3c45a5 100%);
+    background: linear-gradient(135deg, #1f2937 0%, #111827 50%, #0f172a 100%);
     padding: 5rem 0;
     position: relative;
     overflow: hidden;
@@ -14,7 +14,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="discord-pattern" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="%23ffffff" opacity="0.1"/></pattern></defs><rect width="100" height="100" fill="url(%23discord-pattern)"/></svg>');
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="discord-pattern" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="1" fill="%23374151" opacity="0.3"/></pattern></defs><rect width="100" height="100" fill="url(%23discord-pattern)"/></svg>');
     z-index: 1;
 }
 
@@ -39,19 +39,19 @@
     justify-content: center;
     width: 80px;
     height: 80px;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(96, 165, 250, 0.2);
     border-radius: 50%;
     margin-bottom: 1.5rem;
     backdrop-filter: blur(10px);
-    border: 2px solid rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(96, 165, 250, 0.3);
     transition: all 0.3s ease;
     animation: float 3s ease-in-out infinite;
 }
 
 .discord-icon:hover {
     transform: scale(1.1);
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    background: rgba(96, 165, 250, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 .discord-icon svg {
@@ -81,13 +81,13 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(55, 65, 81, 0.6);
     padding: 0.75rem 1.5rem;
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 600;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(75, 85, 99, 0.5);
     position: relative;
     overflow: hidden;
 }
@@ -152,13 +152,13 @@
 }
 
 .channel {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(55, 65, 81, 0.4);
     padding: 0.75rem 1rem;
     border-radius: 12px;
     font-size: 0.9rem;
     font-weight: 600;
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(75, 85, 99, 0.4);
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
@@ -178,9 +178,9 @@
 
 .channel:hover {
     transform: translateY(-2px);
-    background: rgba(255, 255, 255, 0.2);
-    border-color: rgba(255, 255, 255, 0.3);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    background: rgba(55, 65, 81, 0.6);
+    border-color: rgba(96, 165, 250, 0.5);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
 }
 
 .channel:hover::before {
@@ -233,8 +233,8 @@
 }
 
 .btn-discord {
-    background: linear-gradient(135deg, #ffffff, #f1f5f9);
-    color: #5865f2;
+    background: linear-gradient(135deg, #60a5fa, #3b82f6);
+    color: #ffffff;
     border: none;
     padding: 1.25rem 3rem;
     border-radius: 50px;
@@ -242,7 +242,7 @@
     font-weight: 700;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
     position: relative;
     overflow: hidden;
     text-transform: uppercase;
@@ -256,14 +256,14 @@
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(88, 101, 242, 0.1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
     transition: left 0.6s;
 }
 
 .btn-discord:hover {
     transform: translateY(-3px) scale(1.05);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
 }
 
 .btn-discord:hover::before {

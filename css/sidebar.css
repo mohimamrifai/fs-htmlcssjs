@@ -10,23 +10,23 @@
 }
 
 .job-digest {
-    font-size: 0.9rem;
-    color: #666;
+    font-size: 1.1rem;
+    color: #d1d5db;
     line-height: 1.4;
 }
 
 .sidebar-section {
-    background: #fff;
+    background: #1f2937;
     padding: 1.5rem;
     border-radius: 8px;
-    border: 1px solid #f0f0f0;
+    border: 1px solid #374151;
 }
 
 .sidebar-section h3 {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 1rem;
-    color: #333;
+    color: #f9fafb;
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -107,7 +107,7 @@
 }
 
 .category-list a {
-    color: #666;
+    color: #9ca3af;
     text-decoration: none;
     transition: color 0.2s;
     font-size: 0.9rem;
@@ -117,7 +117,7 @@
 }
 
 .category-list a:hover {
-    color: #2563eb;
+    color: #60a5fa;
 }
 
 .category-list .job-count {
@@ -144,8 +144,8 @@
 
 .btn-view-all-categories {
     background: transparent;
-    color: #666;
-    border: 1px solid #e0e0e0;
+    color: #d1d5db;
+    border: 1px solid #4b5563;
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
     font-size: 0.85rem;
@@ -156,9 +156,9 @@
 }
 
 .btn-view-all-categories:hover {
-    background: #f8f8f8;
-    border-color: #d0d0d0;
-    color: #333;
+    background: #374151;
+    border-color: #60a5fa;
+    color: #60a5fa;
 }
 
 .article-list {
@@ -181,13 +181,13 @@
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
-    color: #333;
+    color: #f9fafb;
     line-height: 1.3;
 }
 
 .article-item p {
     font-size: 1rem;
-    color: #888;
+    color: #d1d5db;
     line-height: 1.5;
 }
 
@@ -198,8 +198,8 @@
 
 .btn-more-posts {
     background: transparent;
-    color: #666;
-    border: 1px solid #e0e0e0;
+    color: #d1d5db;
+    border: 1px solid #4b5563;
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
     font-size: 0.85rem;
@@ -210,9 +210,9 @@
 }
 
 .btn-more-posts:hover {
-    background: #f8f8f8;
-    border-color: #d0d0d0;
-    color: #333;
+    background: #374151;
+    border-color: #60a5fa;
+    color: #60a5fa;
 }
 
 /* Mobile Responsive */
