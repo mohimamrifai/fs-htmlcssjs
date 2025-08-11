@@ -1,0 +1,5 @@
+/* Import all component styles */
+@import url('layout.css');
+@import url('sidebar.css');
+@import url('content.css');
+@import url('jobs.css');

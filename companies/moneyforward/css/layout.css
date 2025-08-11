@@ -1,0 +1,53 @@
+/* Company Layout Styles */
+.company-layout {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    max-width: 100%;
+    align-items: start;
+    min-height: 100vh;
+}
+
+/* Left Sidebar - 4/12 width */
+.company-sidebar {
+    background: #fff;
+    border-radius: 12px;
+    padding: 2rem;
+    height: fit-content;
+    position: sticky;
+    top: 80px;
+    min-width: 0;
+    align-self: start;
+    z-index: 10;
+}
+
+/* Right Content - 8/12 width */
+.company-content {
+    min-width: 0;
+    overflow: hidden;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .company-layout {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .company-sidebar {
+        position: static;
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .company-layout {
+        gap: 1rem;
+    }
+    
+    .company-sidebar {
+        padding: 1rem;
+    }
+}

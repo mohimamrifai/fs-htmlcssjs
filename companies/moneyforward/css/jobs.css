@@ -1,0 +1,81 @@
+/* Job Position Styles */
+.job-position {
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease;
+}
+
+.job-position:hover {
+    background-color: #f8f9fa;
+}
+
+.position-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.salary-range {
+    font-size: 1rem;
+    color: #1976d2;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+}
+
+.job-tags {
+    margin-bottom: 0.75rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-right: 0.5rem;
+    margin-bottom: 0.25rem;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+.tag.no-japanese {
+    background-color: #1976d2;
+    color: white;
+}
+
+.tag.apply-abroad {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.tag.remote {
+    background-color: #f57c00;
+    color: white;
+}
+
+.tag.japan-only {
+    background-color: #d32f2f;
+    color: white;
+}
+
+.tag.backend {
+    background-color: #7b1fa2;
+    color: white;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.skill-tag {
+    background: #f1f2f6;
+    color: #333;
+    border-radius: 6px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
