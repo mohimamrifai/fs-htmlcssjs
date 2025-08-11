@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokyoDev - Software Developer Jobs in Japan</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/job-cards.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="/">TokyoDev</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Companies</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Discord</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn-post">Post a Job</button>
+                <button class="btn-login">Login/Register</button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <h1>Software developer jobs in Japan for English speakers.</h1>
+                <div class="hero-benefits">
+                    <div class="benefit-item">
+                        <span class="checkmark">✓</span>
+                        <span>Apply from Abroad</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="checkmark">✓</span>
+                        <span>No Japanese Required</span>
+                    </div>
+                    <div class="benefit-item">
+                        <span class="checkmark">✓</span>
+                        <span>Fully Remote</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Content Grid -->
+        <div class="container">
+            <div class="content-grid">
+                <!-- Job Listings -->
+                <section class="job-listings">
+                    <div class="job-stats-header">
+                        <div class="job-count">174 positions available</div>
+                        <div class="job-digest">A weekly digest of new developer jobs</div>
+                    </div>
+
+                    <!-- render jobs disini -->
+
+
+                    <!-- View All Jobs Button -->
+                    <div class="view-all-container">
+                        <button class="btn-view-all" id="viewAllJobsBtn">
+                            <span class="btn-text">View All Jobs</span>
+                            <span class="job-count-badge">150+</span>
+                        </button>
+                    </div>
+                </section>
+
+                <!-- Sidebar -->
+                <aside class="sidebar">
+                    <div class="sidebar-section newsletter-section">
+                        <h3>A weekly digest of new developer jobs</h3>
+                        <p class="newsletter-description">I'll send you a digest of new English-friendly software
+                            developer jobs in Japan. Your email stays private, I don't share or sell it.</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Enter your email" class="newsletter-input" required>
+                            <button type="submit" class="newsletter-btn">Subscribe</button>
+                        </form>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Browse by category</h3>
+                        <ul class="category-list">
+                            <li><a href="#">Engineering <span class="job-count">42</span></a></li>
+                            <li><a href="#">Product <span class="job-count">18</span></a></li>
+                            <li><a href="#">Design <span class="job-count">12</span></a></li>
+                            <li><a href="#">Data <span class="job-count">15</span></a></li>
+                            <li><a href="#">Sales <span class="job-count">8</span></a></li>
+                            <li><a href="#">Marketing <span class="job-count">6</span></a></li>
+                            <li><a href="#">Business Development <span class="job-count">9</span></a></li>
+                            <li><a href="#">Quality Assurance <span class="job-count">7</span></a></li>
+                            <li><a href="#">Security <span class="job-count">11</span></a></li>
+                        </ul>
+                        <div class="view-all-categories">
+                            <button class="btn-view-all-categories">View All Categories</button>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-section">
+                        <h3>Latest articles</h3>
+                        <div class="article-list">
+                            <article class="article-item">
+                                <h4>Everything Japanese developers know about...</h4>
+                                <p>Essential knowledge for working in Japanese tech companies including understanding
+                                    the unique development culture, team dynamics, and technical practices. Learn about
+                                    code review processes, documentation standards, meeting etiquette, and how to
+                                    navigate the hierarchical structure while building strong relationships with your
+                                    Japanese colleagues.</p>
+                            </article>
+                            <article class="article-item">
+                                <h4>How to find a Developer job in Japan</h4>
+                                <p>A comprehensive guide to landing your dream job in Japan's thriving tech industry.
+                                    Discover the best job boards, recruitment agencies, and networking strategies
+                                    specifically for international developers. Learn how to craft a compelling resume,
+                                    prepare for technical interviews, and understand visa requirements and sponsorship
+                                    processes for a successful career transition.</p>
+                            </article>
+                            <article class="article-item">
+                                <h4>Working as a Developer in Japan</h4>
+                                <p>What to expect when working as a foreign developer in Japan's unique work
+                                    environment. Understand the balance between traditional Japanese business practices
+                                    and modern tech culture, learn about work-life balance expectations, salary
+                                    negotiations, and career advancement opportunities. Get insights into daily
+                                    routines, team collaboration, and professional development in Japanese tech
+                                    companies.</p>
+                            </article>
+                        </div>
+                        <div class="more-posts">
+                            <button class="btn-more-posts">More Posts</button>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+
+        <!-- Career Section -->
+        <section class="career-section">
+            <div class="container">
+                <h2>Start your career as a developer in Japan</h2>
+                <div class="career-grid">
+                    <div class="career-card">
+                        <div class="career-image">
+                            <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?w=400&h=240&fit=crop&crop=center"
+                                alt="Developer workspace" class="career-img">
+                        </div>
+                        <div class="career-content">
+                            <h3>Your guide to developer jobs in Japan</h3>
+                            <p>Everything you need to know about finding and landing a developer job in Japan. From visa
+                                requirements to interview preparation.</p>
+                            <a href="#" class="career-link">Learn more →</a>
+                        </div>
+                    </div>
+                    <div class="career-card">
+                        <div class="career-image">
+                            <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=240&fit=crop&crop=center"
+                                alt="Job application" class="career-img">
+                        </div>
+                        <div class="career-content">
+                            <h3>How to apply to Japanese companies</h3>
+                            <p>Learn the application process and what companies expect from international candidates.
+                                Master the art of Japanese job applications.</p>
+                            <a href="#" class="career-link">Read guide →</a>
+                        </div>
+                    </div>
+                    <div class="career-card">
+                        <div class="career-image">
+                            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=400&h=240&fit=crop&crop=center"
+                                alt="Working visa" class="career-img">
+                        </div>
+                        <div class="career-content">
+                            <h3>Working visa requirements</h3>
+                            <p>Understanding visa requirements and sponsorship process. Navigate the legal requirements
+                                for working in Japan as a developer.</p>
+                            <a href="#" class="career-link">Visa guide →</a>
+                        </div>
+                    </div>
+                    <div class="career-card">
+                        <div class="career-image">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=240&fit=crop&crop=center"
+                                alt="Salary expectations" class="career-img">
+                        </div>
+                        <div class="career-content">
+                            <h3>Developer salary expectations</h3>
+                            <p>What to expect in terms of compensation and benefits. Understand the salary ranges and
+                                negotiation strategies for developers.</p>
+                            <a href="#" class="career-link">Salary guide →</a>
+                        </div>
+                    </div>
+                    <div class="career-card">
+                        <div class="career-image">
+                            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=240&fit=crop&crop=center"
+                                alt="Japanese office culture" class="career-img">
+                        </div>
+                        <div class="career-content">
+                            <h3>Understanding Japanese work culture</h3>
+                            <p>Navigate the unique aspects of Japanese workplace culture. Learn about teamwork,
+                                communication styles, and professional etiquette.</p>
+                            <a href="#" class="career-link">Explore culture →</a>
+                        </div>
+                    </div>
+                    <div class="career-card">
+                        <div class="career-image">
+                            <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=400&h=240&fit=crop&crop=center"
+                                alt="Japanese language learning" class="career-img">
+                        </div>
+                        <div class="career-content">
+                            <h3>Japanese language for developers</h3>
+                            <p>Essential Japanese phrases and technical vocabulary. Build confidence in communicating
+                                with Japanese colleagues and clients.</p>
+                            <a href="#" class="career-link">Start learning →</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- View All Articles Button -->
+                <div class="view-all-articles">
+                    <button class="btn-view-all-articles">View All Articles</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discord Section -->
+        <section class="discord-section">
+            <div class="container">
+                <div class="discord-content">
+                    <div class="discord-text">
+                        <div class="discord-icon">
+                            <svg viewBox="0 0 24 24" fill="#5865f2">
+                                <path
+                                    d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994a.076.076 0 0 0-.041-.106 13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z" />
+                            </svg>
+                        </div>
+
+                        <div class="discord-stats">
+                            <span class="online-count">1144 members online</span>
+                        </div>
+
+                        <h2>Join 5000+ developers on Discord</h2>
+                        <p>You're not alone. Our community can help you start or grow your career as a software
+                            developer in Japan.</p>
+
+                        <div class="discord-channels">
+                            <div class="channels-grid">
+                                <span class="channel channel-news">#news</span>
+                                <span class="channel channel-jobs">#job-postings</span>
+                                <span class="channel channel-intro">#introduce-yourself</span>
+                                <span class="channel channel-general">#general</span>
+                                <span class="channel channel-events">#events</span>
+                                <span class="channel channel-language">#japanese-language</span>
+                                <span class="channel channel-residents">#residents-of-japan</span>
+                                <span class="channel channel-resources">#resources</span>
+                                <span class="channel channel-career">#career-change</span>
+                                <span class="channel channel-relocate">#relocating-to-japan</span>
+                                <span class="channel channel-resume">#resume-review</span>
+                            </div>
+                        </div>
+
+                        <button class="btn-discord">Join our Discord</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Insights Section -->
+        <section class="insights-section">
+            <div class="container">
+                <h2>Insights from foreign developers in Japan</h2>
+                <div class="insights-grid">
+                    <div class="insight-card">
+                        <div class="insight-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="John Martinez" class="avatar-image">
+                        </div>
+                        <div class="insight-content">
+                            <h4>John Martinez</h4>
+                            <p class="insight-role">Senior Software Engineer at Rakuten</p>
+                            <p>"Moving to Japan was the best career decision I've made. The tech scene here is
+                                incredibly innovative and the work-life balance is much better than expected."</p>
+                        </div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face" alt="Sarah Kim" class="avatar-image">
+                        </div>
+                        <div class="insight-content">
+                            <h4>Sarah Kim</h4>
+                            <p class="insight-role">Product Manager at LINE</p>
+                            <p>"The learning opportunities here are endless. Working with Japanese teams has taught me
+                                so much about attention to detail and user experience."</p>
+                        </div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="Alex Liu" class="avatar-image">
+                        </div>
+                        <div class="insight-content">
+                            <h4>Alex Liu</h4>
+                            <p class="insight-role">Full Stack Developer at Mercari</p>
+                            <p>"The visa sponsorship process was smoother than I thought. Companies here are very
+                                supportive of international talent."</p>
+                        </div>
+                    </div>
+                    <div class="insight-card">
+                        <div class="insight-avatar">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face" alt="Maria Rodriguez" class="avatar-image">
+                        </div>
+                        <div class="insight-content">
+                            <h4>Maria Rodriguez</h4>
+                            <p class="insight-role">DevOps Engineer at SoftBank</p>
+                            <p>"Tokyo's tech ecosystem is amazing. There are so many meetups, conferences, and
+                                opportunities to network with other developers."</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-avatar">
+                        <div class="avatar-large">PM</div>
+                    </div>
+                    <div class="about-text">
+                        <h2>Hi, I'm Paul McMahon.</h2>
+                        <p>TokyoDev started off with me writing about my own experiences being a developer in Tokyo. As
+                            other international developers asked me questions about working here, I wrote articles to
+                            answer them. Now TokyoDev has evolved into a site dedicated to helping international
+                            developers start and grow their career in Japan.</p>
+                        <a href="#" class="learn-more">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="/" class="footer-brand-link">TokyoDev</a>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Jobs</h4>
+                        <ul>
+                            <li><a href="#">Browse Jobs</a></li>
+                            <li><a href="#">Post a Job</a></li>
+                            <li><a href="#">Salary Guide</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#">Articles</a></li>
+                            <li><a href="#">Developer Guide</a></li>
+                            <li><a href="#">Visa Guide</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Community</h4>
+                        <ul>
+                            <li><a href="#">Discord</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TokyoDev. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="jobs-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
