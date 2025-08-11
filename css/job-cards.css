@@ -106,11 +106,16 @@
     margin-bottom: 0.25rem;
 }
 .view-all-jobs {
-    margin-top: 1rem;
+    text-align: left;
 }
 .view-all-link {
     color: #1e90ff;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+.view-all-link:hover {
+    color: #2563eb;
+    text-decoration: underline;
 }
