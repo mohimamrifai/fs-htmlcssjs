@@ -148,21 +148,17 @@ function initMobileMenu() {
     const navbar = document.querySelector('.navbar');
     const navMenu = document.querySelector('.nav-menu');
     const navActions = document.querySelector('.nav-actions');
+    const mobileMenuBtn = document.querySelector('.mobile-menu-toggle');
     
-    // Create hamburger menu button
-    const mobileMenuBtn = document.createElement('button');
-    mobileMenuBtn.className = 'mobile-menu-btn';
-    mobileMenuBtn.innerHTML = '☰';
-    mobileMenuBtn.style.display = 'none';
-    
-    // Insert mobile menu button before nav-actions
-    navbar.insertBefore(mobileMenuBtn, navActions);
+    if (!mobileMenuBtn) return; // Exit if mobile menu button doesn't exist
     
     // Toggle mobile menu
     mobileMenuBtn.addEventListener('click', function() {
-        navMenu.classList.toggle('mobile-menu-open');
+        navMenu.classList.toggle('active');
+        navActions.classList.toggle('active');
+        
         // Change hamburger icon
-        if (navMenu.classList.contains('mobile-menu-open')) {
+        if (navMenu.classList.contains('active')) {
             mobileMenuBtn.innerHTML = '✕';
         } else {
             mobileMenuBtn.innerHTML = '☰';
@@ -172,19 +168,28 @@ function initMobileMenu() {
     // Close menu when clicking outside
     document.addEventListener('click', function(e) {
         if (!navbar.contains(e.target)) {
-            navMenu.classList.remove('mobile-menu-open');
+            navMenu.classList.remove('active');
+            navActions.classList.remove('active');
             mobileMenuBtn.innerHTML = '☰';
         }
+    });
+    
+    // Close menu when clicking on menu items
+    const menuLinks = navMenu.querySelectorAll('a');
+    menuLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navMenu.classList.remove('active');
+            navActions.classList.remove('active');
+            mobileMenuBtn.innerHTML = '☰';
+        });
     });
     
     // Handle window resize
     function handleResize() {
         if (window.innerWidth > 768) {
-            navMenu.classList.remove('mobile-menu-open');
-            mobileMenuBtn.style.display = 'none';
+            navMenu.classList.remove('active');
+            navActions.classList.remove('active');
             mobileMenuBtn.innerHTML = '☰';
-        } else {
-            mobileMenuBtn.style.display = 'block';
         }
     }
     
